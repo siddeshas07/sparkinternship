@@ -1,28 +1,3 @@
-html{
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color:  #5f0799;
-}
-
-/* splash screen css starts here  */
-#loading{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
-    z-index: 99999;
-}
-/* splash screen css ends here  */
-
-/* navbar css starts here  */
-.bg-light{
-    background-color: rgb(73, 100, 0)!important;
-}
-
 .navbar-brand{
     font-family: 'Sansita Swashed', cursive;
     font-size: 1.5rem;
@@ -37,24 +12,21 @@ body{
 .nav-link:hover{
     background-color: #f3f1f1;
 }
-/* navbar css ends here  */
-
-/* here content css starts here  */
-/* .hero-content{
+.hero-content{
     height: 100vh;
-    background-color:rebeccapurple;
-     /* #039be5; */
-    color: #ebe9f3;
+    /* background-color: #039be5; */
+    color: #ffffff;
     padding: 3rem;
     border-bottom-left-radius: 45rem;
     border-bottom-right-radius: 45rem;
     margin-bottom: 1vh;
-} */
+}
 
 .hero-img{
     height: 70vh;
     width: 100%;
 }
+
 
 @media only screen and (max-width: 766px) {
     .hero-img {
@@ -109,7 +81,7 @@ body{
 
 /* footer css starts here */
 footer{
-    background-color: #fff;
+    background-color: rgb(169, 42, 180);
 }
 
 .social-icons li{
